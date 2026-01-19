@@ -48,6 +48,7 @@ end
 complete -c nvm -f -a "(__nvm_complete)"
 # 13. global path
 fish_add_path /data/bin/local-cloud-computer/bin
+fish_add_path /data/bin/server-cloud-computer/tools
 
 # 14. ag
 function ag
