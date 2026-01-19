@@ -1,6 +1,14 @@
 - dir: `/data/bin/local-cloud-computer`
 
 # tmux
+- `git submodule update --init --recursive`
+```shell
+revalidate:
+    tmux source-file ~/.tmux.conf
+storage file:
+    share/tmux/resurrect/tmux_resurrect_20260119T100133.txt
+```
+
 
 - `ln  -fs /data/bin/local-cloud-computer/tmux/tmux.conf  ~/.tmux.conf`
 
